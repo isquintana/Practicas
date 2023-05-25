@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>practicas con alertas</title>
+</head>
+<body>
+       <h2>Alertas con Html y JavaScript</h2>
+
+       <input type="button" value="Mensaje" onclick="mensaje()">
+        <hr>
+        <p>alerta al precionar un checkbox</p>
+        <input type="checkbox" name="precion" onclick="precion()">
+        <hr>
+        <p> escribir con javascript</p>
+        <input type="button" value="escribe el mensaje" onclick="document.write('lindo dia att isc yael');">
+        <hr>
+        <p>vinculos con alertas</p>
+        <a href="javascript:alert('has llegado a una alerta');">darle click</a>
+        <hr>
+        <a href="javascript:window.print()">IMPRIMIR PANTALLA</a>
+        <hr>
+        <p>alerta con opciones aceptar y cancelar</p>
+        <a href="#" onclick="salir()"> salir de la practica</a>
+
+       <!-- funcion boto -->
+       <script>
+             function mensaje(){
+                alert("esto es una alerta creada con una funcion con javascript");
+             }
+       </script>
+       <!-- funcion checkbox-->
+       <script>
+            function precion(){
+             alert("le has dado click al checkbox");
+            }
+       </script>
+       <!-- funcion escribir-->
+       <!-- texto
+       <script>
+            function escribir(){
+                document.write("es facil trabajar con el write con javascript att. isc yael");
+            }
+       </script>
+    -->
+    <script>
+        function salir(){
+            var salir-confirm("¿deceas salir de la practicaa?")
+            if (salir) {
+                alert("gracias estas saliendo de la pagina")
+                window.location ="iscyaelquintana";
+        }
+        else{
+            alert("gracias siges con nosotros")
+        }
+     
+    }
+    </script>
+</body>
+</html>
