@@ -1,0 +1,1 @@
+insert into bot.usuario(id_usuario, nombre, a_paterno, a_materno, nickname, email, contra, telefono, f_nacimiento) values (null, 'isaias','Santiago', 'Antonio', 'Shadrow', 'sublimevacio@gmail.com', 'lolforever', '55-55-55-55-55', 2004-07-13);
